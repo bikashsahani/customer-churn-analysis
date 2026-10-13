@@ -17,10 +17,8 @@ Analyze customer behavior to find retention patterns and the main drivers of chu
 ```
 customer-churn-analysis/
 ├──Telco_Customer_Churn.csv               # original dataset
-│   
-|-----cleaned_Telco_Customer_Churn.csv    # cleaned and encoded datasets
+├──cleaned_Telco_Customer_Churn.csv       # cleaned and encoded datasets
 ├── customerChurn_Analysis.ipynb          # full analysis, charts and insights
-│       
 ├── README.md                             # project overview and usage (this file)
 ├── REPORT.md                             # detailed process documentation
 ├── requirements.txt                      # Python dependencies
