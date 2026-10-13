@@ -25,23 +25,6 @@ customer-churn-analysis/
 
 ```
 
-## Setup
-
-**Requirements:** Python 3.9 or later.
-
-```bash
-# 1. Clone the repository
-git clone <your-repo-url>
-cd customer-churn-analysis
-
-# 2. (Optional) create a virtual environment
-python -m venv venv
-source venv/bin/activate        # on Windows: venv\Scripts\activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ```bash
