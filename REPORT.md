@@ -60,8 +60,6 @@ This report summarises the dataset, the cleaning and transformation strategy, an
 - `avg_monthly_spend`: `TotalCharges / tenure`, falling back to `MonthlyCharges` when tenure is 0.
 - `has_protection_support`: 1 if the customer has any of security, backup, device protection or tech support.
 
-**Scaling:** not applied. The EDA relies on counts, rates and correlations, which do not need scaled inputs. Scaling (for example `StandardScaler` on `tenure`, `MonthlyCharges` and `TotalCharges`) should be added before any distance-based or regularised model.
-
 ---
 
 ## 3. EDA Results
